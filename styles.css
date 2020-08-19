@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(35deg, #000000 0%, #1cad58 100%);
+    color: white;
+    padding: 25%;
+    text-align: center;
+}
+
+#welcome-section p {
+    font-size: 2em;
+}
+
+.projects-section-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #000;
+    color: whitesmoke;
+}
+
+.background-color {
+    background-color: rgb(39, 39, 39);
+}
+
+.projects-section-footer {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 2em 0rem;
+}
+
+#technologies {
+    background-color: rgba(255, 255, 255, 0.116);
+    display: grid;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    padding: 3em;
+}
+
+#technologies h2 {
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.technologies-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.technologies-list li {
+    font-size: 3rem;
+}
+
+.technologies-list li .bg {
+    background-color: #3b3b3bc4;
+}
+
+#contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    padding: 2em;
+}
+
+.contacts {
+    display: flex;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    height: 5em;
+    background-color: #000;
+    padding: 2em;
+}
+
+.contacts a {
+    color: white;
+    font-size: 1.5rem;
+    ;
+}
+
+.contact-details:hover {
+    color: lightslategray;
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+footer h5 {
+    color: white;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+}
+
+@media (max-width: 75em) {
+    html {
+        font-size: 60%;
+    }
+    #technologies h2 {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 61.25em) {
+    html {
+        font-size: 58%;
+    }
+    #technologies h2 {
+        font-size: 58%;
+    }
+}
+
+@media (max-width: 28.75em) {
+    html {
+        font-size: 55%;
+    }
+    #technologies h2 {
+        font-size: 55%;
+    }
+    .technologies-list li {
+        font-size: 55%;
+    }
+}
